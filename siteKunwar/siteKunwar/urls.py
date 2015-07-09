@@ -1,4 +1,4 @@
-"""qstpsite URL Configuration
+"""siteKunwar URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.8/topics/http/urls/
@@ -18,7 +18,4 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^suneha/',include('sunehaapp.urls')),
-	 url(r'^sujith/',include('sujithapp.urls')),
-     url(r'^kunwar/',include('kunwarapp.urls')),
 ]
