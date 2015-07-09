@@ -39,7 +39,11 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'sunehaapp',
 	'sujithapp',
+<<<<<<< HEAD
     'kunwarapp',
+=======
+	'rohanapp',
+>>>>>>> 81aa1418d90fe1dccdbabb6560b2696a4eeedab7
 )
 
 MIDDLEWARE_CLASSES = (
